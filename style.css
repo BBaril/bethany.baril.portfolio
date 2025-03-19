@@ -404,6 +404,16 @@ article .icon {
     border-color: rgb(163, 163, 163);
 }
 
+.project-iframe {
+  border-radius: 2rem;
+  width: 100%;
+  max-width: 800px; /* or whatever you like */
+  height: 500px;   /* pick a fixed height or adjust for content */
+  margin: 0 auto;
+  display: block;
+}
+
+
 /* Contact */
 
 #contact {
