@@ -1,0 +1,28 @@
+{
+  "name": "bethany.baril.portfolio",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts":{
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BBaril/bethany.baril.portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BBaril/bethany.baril.portfolio/issues"
+  },
+  "homepage": "https://github.com/BBaril/bethany.baril.portfolio#readme",
+  "description": "",
+  "dependencies": {
+    "next": "^15.2.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
