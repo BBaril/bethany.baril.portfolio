@@ -391,10 +391,10 @@ article {
   }
 }
 
-article:first-child h3,
-article:first-child p {
-  text-align: left;
+article:first-child {
+  margin-top: 1rem;
 }
+
 
 
 
