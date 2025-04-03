@@ -391,6 +391,12 @@ article {
   }
 }
 
+article:first-child h3,
+article:first-child p {
+  text-align: left;
+}
+
+
 
 article h3,
 article p {
