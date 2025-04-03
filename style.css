@@ -391,11 +391,10 @@ article {
   }
 }
 
-article:first-child {
-  margin-top: 5rem;
+article:first-child p {
+  text-align: left;
+  margin-left: 1.5rem;
 }
-
-
 
 
 article h3,
@@ -403,6 +402,7 @@ article p {
   margin: 0.5rem 0;
   padding: 0;
 }
+
 
 article .icon {
     cursor: default;
