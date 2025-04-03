@@ -359,7 +359,7 @@ section {
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2.5rem;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 article {
@@ -380,6 +380,54 @@ article {
 article .icon {
     cursor: default;
 }
+
+.skill-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 2px cyan;
+  max-width: 600px;
+  margin: auto;
+}
+
+.skill-icon {
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.skill-text h3 {
+  margin: 0;
+  text-align: center;
+}
+
+.skill-text p {
+  margin: 0.25rem 0 0;
+  text-align: left;
+}
+
+.skill-text h3,
+.skill-stack h3 {
+  padding-bottom: 0.3rem;
+}
+
+.skill-icon {
+  height: 30px;        /* to get icon smaller */
+  width: auto;         /* Keeps aspect ratio intact */
+  display: block;      /* Ensures it behaves like a block element */
+  margin: 0 auto 0.5rem auto; /* Centers the icon and adds bottom space */
+}
+
+.skill-icon:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
+}
+
+box-shadow: 0 0 4px cyan;
+border-radius: 8px;
+
 
 /* Projects  Section*/
 
